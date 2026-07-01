@@ -25,6 +25,15 @@ class HomePage extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
+                child: Image.asset(
+                  "assets/imagenes/tung.png",
+                  width: 300,
+                  height: 300,
+                ),
+              ),
+
+              Padding(
+                padding: const EdgeInsets.all(8.0),
                 child: Text(
                   "Servicio Nacional de Aprendizaje - SENA",
                   style: TextStyle(
